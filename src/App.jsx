@@ -1,11 +1,12 @@
 import "./App.css";
+import MuiTypography from "./components/MuiTypography";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>App</h1>
+      <MuiTypography />
     </>
   );
-}
+};
 
 export default App;
