@@ -27,6 +27,7 @@ const MuiButton = () => {
 
   return (
     <Stack spacing={4}>
+      {/* Basic Buttons */}
       <Stack spacing={2} direction="row">
         <Button variant="text" href="https://google.com">
           Text
@@ -35,6 +36,7 @@ const MuiButton = () => {
         <Button variant="outlined">Outlined</Button>
       </Stack>
 
+      {/* Text Button with Color */}
       <Stack spacing={2} direction="row">
         <Button variant="text" color="primary">
           Primary
@@ -56,6 +58,7 @@ const MuiButton = () => {
         </Button>
       </Stack>
 
+      {/* Contained Button with Color */}
       <Stack spacing={2} direction="row">
         <Button variant="contained" color="primary">
           Primary
@@ -77,6 +80,7 @@ const MuiButton = () => {
         </Button>
       </Stack>
 
+      {/* Outlined Button with Color */}
       <Stack spacing={2} direction="row">
         <Button variant="outlined" color="primary">
           Primary
@@ -98,6 +102,7 @@ const MuiButton = () => {
         </Button>
       </Stack>
 
+      {/* Button Sizes */}
       <Stack display="block" spacing={2} direction="row">
         <Button variant="contained" size="small">
           Small
@@ -110,6 +115,7 @@ const MuiButton = () => {
         </Button>
       </Stack>
 
+      {/* Button with Material Icons */}
       <Stack spacing={2} direction="row">
         <Button
           variant="contained"
@@ -127,6 +133,7 @@ const MuiButton = () => {
         </IconButton>
       </Stack>
 
+      {/* Button Group with Handler */}
       <Stack direction="row">
         <ButtonGroup
           variant="contained"
@@ -141,6 +148,7 @@ const MuiButton = () => {
         </ButtonGroup>
       </Stack>
 
+      {/* Toggle Button with Handler */}
       <Stack direction="row">
         <ToggleButtonGroup
           aria-label="text formatting"
