@@ -1,12 +1,11 @@
 import "./App.css";
 import MuiButton from "./components/MuiButton";
-import MuiTypography from "./components/MuiTypography";
+// import MuiTypography from "./components/MuiTypography";
 
 const App = () => {
   return (
     <>
-      <MuiTypography />
-      <hr style={{ margin: "30px auto" }} />
+      {/* <MuiTypography /> */}
       <MuiButton />
     </>
   );
