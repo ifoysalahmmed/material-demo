@@ -1,8 +1,9 @@
 import "./App.css";
+import MuiAutocomplete from "./components/MuiAutocomplete";
 // import MuiButton from "./components/MuiButton";
 // import MuiCheckbox from "./components/MuiCheckbox";
 // import MuiRadioButton from "./components/MuiRadioButton";
-import MuiRating from "./components/MuiRating";
+// import MuiRating from "./components/MuiRating";
 // import MuiSelect from "./components/MuiSelect";
 // import MuiSwitch from "./components/MuiSwitch";
 // import MuiTextField from "./components/MuiTextField";
@@ -18,7 +19,8 @@ const App = () => {
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
       {/* <MuiSwitch /> */}
-      <MuiRating />
+      {/* <MuiRating /> */}
+      <MuiAutocomplete />
     </>
   );
 };
