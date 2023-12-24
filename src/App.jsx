@@ -13,7 +13,8 @@ import "./App.css";
 // import MuiGridLayout from "./components/MuiGridLayout";
 // import MuiPaperLayout from "./components/MuiPaperLayout";
 // import MuiCard from "./components/MuiCard";
-import MuiAccordion from "./components/MuiAccordion";
+// import MuiAccordion from "./components/MuiAccordion";
+import MuiImageList from "./components/MuiImageList";
 
 const App = () => {
   return (
@@ -32,7 +33,8 @@ const App = () => {
       {/* <MuiGridLayout /> */}
       {/* <MuiPaperLayout /> */}
       {/* <MuiCard /> */}
-      <MuiAccordion />
+      {/* <MuiAccordion /> */}
+      <MuiImageList />
     </>
   );
 };
