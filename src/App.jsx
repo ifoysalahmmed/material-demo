@@ -3,7 +3,8 @@ import "./App.css";
 // import MuiBoxLayout from "./components/MuiBoxLayout";
 // import MuiButton from "./components/MuiButton";
 // import MuiCheckbox from "./components/MuiCheckbox";
-import MuiGridLayout from "./components/MuiGridLayout";
+// import MuiGridLayout from "./components/MuiGridLayout";
+import MuiPaperLayout from "./components/MuiPaperLayout";
 // import MuiRadioButton from "./components/MuiRadioButton";
 // import MuiRating from "./components/MuiRating";
 // import MuiSelect from "./components/MuiSelect";
@@ -26,7 +27,8 @@ const App = () => {
       {/* <MuiAutocomplete /> */}
       {/* <MuiBoxLayout /> */}
       {/* <MuiStackLayout /> */}
-      <MuiGridLayout />
+      {/* <MuiGridLayout /> */}
+      <MuiPaperLayout />
     </>
   );
 };
