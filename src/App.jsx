@@ -12,7 +12,8 @@ import "./App.css";
 // import MuiStackLayout from "./components/MuiStackLayout";
 // import MuiGridLayout from "./components/MuiGridLayout";
 // import MuiPaperLayout from "./components/MuiPaperLayout";
-import MuiCard from "./components/MuiCard";
+// import MuiCard from "./components/MuiCard";
+import MuiAccordion from "./components/MuiAccordion";
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/* <MuiStackLayout /> */}
       {/* <MuiGridLayout /> */}
       {/* <MuiPaperLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </>
   );
 };
