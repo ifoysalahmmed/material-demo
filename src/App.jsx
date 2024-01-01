@@ -1,20 +1,21 @@
 import "./App.css";
-// import MuiTypography from "./components/MuiTypography";
-// import MuiButton from "./components/MuiButton";
-// import MuiTextField from "./components/MuiTextField";
-// import MuiSelect from "./components/MuiSelect";
-// import MuiRadioButton from "./components/MuiRadioButton";
-// import MuiCheckbox from "./components/MuiCheckbox";
-// import MuiSwitch from "./components/MuiSwitch";
-// import MuiRating from "./components/MuiRating";
-// import MuiAutocomplete from "./components/MuiAutocomplete";
-// import MuiBoxLayout from "./components/MuiBoxLayout";
-// import MuiStackLayout from "./components/MuiStackLayout";
-// import MuiGridLayout from "./components/MuiGridLayout";
-// import MuiPaperLayout from "./components/MuiPaperLayout";
-// import MuiCard from "./components/MuiCard";
+import MuiNavbar from "./components/MuiNavbar";
+// import MuiImageList from "./components/MuiImageList";
 // import MuiAccordion from "./components/MuiAccordion";
-import MuiImageList from "./components/MuiImageList";
+// import MuiCard from "./components/MuiCard";
+// import MuiPaperLayout from "./components/MuiPaperLayout";
+// import MuiGridLayout from "./components/MuiGridLayout";
+// import MuiStackLayout from "./components/MuiStackLayout";
+// import MuiBoxLayout from "./components/MuiBoxLayout";
+// import MuiAutocomplete from "./components/MuiAutocomplete";
+// import MuiRating from "./components/MuiRating";
+// import MuiSwitch from "./components/MuiSwitch";
+// import MuiCheckbox from "./components/MuiCheckbox";
+// import MuiRadioButton from "./components/MuiRadioButton";
+// import MuiSelect from "./components/MuiSelect";
+// import MuiTextField from "./components/MuiTextField";
+// import MuiButton from "./components/MuiButton";
+// import MuiTypography from "./components/MuiTypography";
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
       {/* <MuiPaperLayout /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiNavbar />
     </>
   );
 };
